@@ -7,7 +7,8 @@ module.exports = {
     goerli: {
       url: process.env.NODE_HTTP_URL,
       accounts: [process.env.PRIVATE_KEY],
-      gasPrice: 50000000000,
+      // gasPrice: 400000000000,
+      gas: "auto",
     },
   },
 };
